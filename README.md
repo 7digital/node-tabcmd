@@ -79,4 +79,3 @@ tabcmd.login(function(){
 		tabcmd.logout();
 	});
 });
-````

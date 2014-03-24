@@ -7,7 +7,7 @@
     "test": "mocha */**.test.js"
   },
   "author": "7digital",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "devDependencies": {
     "mocha": "~1.18.2",
     "chai": "~1.9.0",
