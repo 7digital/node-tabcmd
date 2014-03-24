@@ -1,12 +1,12 @@
 {
-  "name": "tableau-mailer",
-  "version": "0.0.0",
-  "description": "",
+  "name": "tabcmd",
+  "version": "0.1.0",
+  "description": "A simple wrapper around Tableau's tabcmd utility",
   "main": "index.js",
   "scripts": {
     "test": "mocha */**.test.js"
   },
-  "author": "",
+  "author": "7digital",
   "license": "BSD-2-Clause",
   "devDependencies": {
     "mocha": "~1.18.2",
