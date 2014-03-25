@@ -12,8 +12,10 @@
 	"globals" : {
 		"describe" : true,
 		"it" : true,
-		"require" : true
-	}
+		"require" : true,
+		"beforeEach" : true,
+		"afterEach" : true
+	},
 
 	// *Development.*
 	// Allow debugger statements e.g. browser breakpoints.

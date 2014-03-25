@@ -24,11 +24,11 @@ describe('TabCmd', function(){
 		var tabCmd = new TabCmd();
 
 		expect(tabCmd.logout).to.exist;
-	})
+	});
 
 	it ('should expose an export png method', function(){
 		var tabCmd = new TabCmd();
 
 		expect(tabCmd.export.png).to.exist;
-	})
+	});
 });
