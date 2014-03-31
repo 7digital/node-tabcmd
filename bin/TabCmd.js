@@ -1,9 +1,8 @@
-var settings = require('../lib/settings');
 var login = require('../lib/login');
 var xport = require('../lib/export');
 
 var TabCmd = function(config){
-	settings.settings = config;
+	this.settings = config;
 };
 
 TabCmd.prototype.login = login.login;

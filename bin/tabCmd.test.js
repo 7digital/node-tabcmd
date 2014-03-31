@@ -1,8 +1,7 @@
 var mocha	= require('mocha'),
 	expect	= require('chai').expect,
 
-	TabCmd	= require('./TabCmd'),
-	settings = require('../lib/settings')
+	TabCmd	= require('./TabCmd')
 	;
 
 describe('TabCmd', function(){
@@ -11,7 +10,7 @@ describe('TabCmd', function(){
 
 		var tabCmd = new TabCmd(config);
 
-		expect(settings.settings).to.equal(config);
+		expect(tabCmd.settings).to.equal(config);
 	});
 
 	it ('should expose a login method', function(){
